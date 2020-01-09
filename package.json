@@ -5,5 +5,8 @@
   "main": "handler.js",
   "scripts": {},
   "author": "Tyler Flint",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "serverless-bundle": "^1.2.5"
+  }
 }
