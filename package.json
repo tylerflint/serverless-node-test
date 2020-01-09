@@ -1,0 +1,9 @@
+{
+  "name": "serverless-node",
+  "version": "0.1.0",
+  "description": "Test microservices monorepo node app",
+  "main": "handler.js",
+  "scripts": {},
+  "author": "Tyler Flint",
+  "license": "MIT"
+}

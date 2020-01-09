@@ -1,0 +1,14 @@
+service: users-api
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  
+functions:
+  get:
+    handler: get.main
+    events:
+      - http:
+          path: users/{id}
+          method: get
+          cors: true
