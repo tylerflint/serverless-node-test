@@ -1,7 +1,6 @@
-service: users-api
+service: serverless-node-users-api-v1
 
 plugins:
-  # - serverless-bundle
   - serverless-plugin-optimize
 
 package:
@@ -16,6 +15,6 @@ functions:
     handler: get.main
     events:
       - http:
-          path: users/{id}
+          path: v1/users/{id}
           method: get
           cors: true
