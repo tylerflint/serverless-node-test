@@ -1,7 +1,11 @@
 service: users-api
 
 plugins:
-  - serverless-bundle
+  # - serverless-bundle
+  - serverless-plugin-optimize
+
+package:
+  individually: true
 
 provider:
   name: aws

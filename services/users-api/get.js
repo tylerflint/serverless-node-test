@@ -3,7 +3,7 @@ import * as user from '../../lib/user';
 export const main = (event, context, callback) => {
 
   // instantiate a user
-  const u = user.getUserById(null, 1);
+  const u = user.findById(null, 1);
 
   // prepare a response
   const response = {
